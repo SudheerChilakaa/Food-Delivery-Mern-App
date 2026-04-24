@@ -1,10 +1,3 @@
-// import mongoose from "mongoose";
-
-// export const connectDB = async ()=>{
-//     await mongoose.connect(process.env.MONGO_URI)
-//     .then(()=>console.log("DB Connected"))
-//     .catch(err => console.error(err));
-// }
 
 import mongoose from "mongoose";
 
@@ -18,8 +11,7 @@ export const connectDB = async () => {
     }
 };
 
- 
-
+// module.exports = connectDB;
 
 // mongodb+srv://SudheerChilaka:Sudheer@627@cluster0.m0nkljj.mongodb.net/?appName=Cluster0
 // 
