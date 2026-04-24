@@ -41,7 +41,7 @@ if(!setShowLogin) return;
   const onLogin = async (event) => {
     event.preventDefault()
     let newUrl = url;
-
+    
     if(currState === "Login"){
       newUrl = newUrl + "/api/user/login"
     }
@@ -58,8 +58,6 @@ if(!setShowLogin) return;
     } else {
       alert(response.data.message)
     }
-
-
   }
 
   // useEffect(()=>{
